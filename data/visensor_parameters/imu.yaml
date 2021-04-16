@@ -1,0 +1,5 @@
+# IMU parameters
+acc_n: 0.08
+gyr_n: 0.004
+acc_w: 0.00004
+gyr_w: 2.0e-6

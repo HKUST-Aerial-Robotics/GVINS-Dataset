@@ -1,0 +1,32 @@
+# intrinsic
+model_type: MEI
+camera_name: cam0
+image_width: 752
+image_height: 480
+mirror_parameters:
+   xi: 1.8482000080983196
+distortion_parameters:
+   k1: -0.05322412328104923
+   k2: 0.7676625579468673
+   p1: -0.00019942420435829978
+   p2: -0.0006936085281739436
+projection_parameters:
+   gamma1: 1330.3922281659666
+   gamma2: 1332.49270401596
+   u0: 377.39301029010045
+   v0: 233.04955276185672
+
+# extrinsic
+extrinsicRotation: !!opencv-matrix        # R^{imu}_{cam}
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 0.9999014076382304, -0.0133731297219721, 0.0042818692791948,
+           0.0133731003056063, 0.9999105754655292, 0.0000355022536769,
+          -0.0042819611512717, 0.0000217631139403, 0.9999908321255077 ]
+extrinsicTranslation: !!opencv-matrix     # t^{imu}_{cam}
+   rows: 3
+   cols: 1
+   dt: d
+   data: [0.0341738532732442, -0.0032623030537933, -0.0017782029037505]
+
