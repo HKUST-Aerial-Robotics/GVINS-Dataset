@@ -6,7 +6,7 @@ This repository hosts dataset collected during the development of [GVINS](https:
 
 # 1. Sensor Suit
 <p align="center">
-  <img alt="sensorsuit" src="./figures/sensorsuit.png">
+  <img alt="sensorsuit" src="./figures/sensorsuit.jpg">
 </p>
 
 ### 1.1. VI-Sensor
@@ -19,7 +19,7 @@ We use [u-blox ZED-F9P](https://www.u-blox.com/en/product/zed-f9p-module) to col
 The time system between the VI-Sensor and the GNSS receiver is synchronized via Pluse Per Second (PPS) signal. The synchronization process is illustrated in the figure below:
 
 <p align="center">
-  <img alt="sync_diagram" src="./figures/device_sync.svg">
+  <img alt="sync_diagram" src="./figures/device_sync.jpg">
 </p>
 
 1. The GNSS receiver reports the time information of next PPS signal. In our system the reporting frequency is set to 1Hz.
@@ -36,6 +36,7 @@ The dataset is released in the form of rosbag and currently there are two rosbag
 | :--: | :------: | :--: | :--: |
 | sports_field | 25min | 20.5GB | [OneDrive](https://hkustconnect-my.sharepoint.com/:u:/g/personal/scaoad_connect_ust_hk/Eb5EuCmYR4RBnXbpjV8EfNQBORvT0WPtGXMbwPa4Rmx6Lg?e=SYIHUv) |
 | complex_environment | 32min | 26.1GB | [OneDrive](https://hkustconnect-my.sharepoint.com/:u:/g/personal/scaoad_connect_ust_hk/EalZKULm8QFPqNZlf53C31QBmcQ1KUsWnOQ6N2rIefNBYA?e=QUbvHe) |
+| urban_driving | 41min | 33.4GB | [OneDrive](https://hkustconnect-my.sharepoint.com/:u:/g/personal/scaoad_connect_ust_hk/EX1pIitB4iFIqXjf2JZ_LYMBbENBrC1Rnl18KQKGeH3T0A?e=eFTp1f) |
 
 The data items within the rosbag are listed below:
 | topic | type | frequency | description |
