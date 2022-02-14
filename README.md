@@ -19,7 +19,7 @@ We use [u-blox ZED-F9P](https://www.u-blox.com/en/product/zed-f9p-module) to col
 The time system between the VI-Sensor and the GNSS receiver is synchronized via Pluse Per Second (PPS) signal. The synchronization process is illustrated in the figure below:
 
 <p align="center">
-  <img alt="sync_diagram" src="./figures/device_sync.jpg">
+  <img alt="sync_diagram" src="./figures/device_sync.jpg" width="400">
 </p>
 
 1. The GNSS receiver reports the time information of next PPS signal. In our system the reporting frequency is set to 1Hz.
