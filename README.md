@@ -1,6 +1,6 @@
 # GVINS-Dataset
 
-Author/Maintainer: CAO Shaozu (shaozu.cao AT gmail.com), LU Xiuyuan (xluaj AT connect.ust.hk)
+Author/Maintainer: CAO Shaozu (shaozu.cao AT gmail.com), LU Xiuyuan (xluaj AT connect.ust.hk), SHEN Shaojie (eeshaojie AT ust.hk)
 
 This repository hosts dataset collected during the development of [GVINS](https://github.com/HKUST-Aerial-Robotics/GVINS). The dataset contains GNSS raw measurement, visual and inertial data which are necessary for GNSS-Visual-Inertial fusion algorithm. 
 
