@@ -4,6 +4,9 @@ Author/Maintainer: CAO Shaozu (shaozu.cao AT gmail.com), LU Xiuyuan (xluaj AT co
 
 This repository hosts dataset collected during the development of [GVINS](https://github.com/HKUST-Aerial-Robotics/GVINS). The dataset contains GNSS raw measurement, visual and inertial data which are necessary for GNSS-Visual-Inertial fusion algorithm. 
 
+**Updates:**
+  - Aug 29, 2026: The dataset is now hosted on [Hugging Face](https://huggingface.co/datasets/Shawn202606/GVINS-Dataset/tree/main); the previous OneDrive link has been removed (as it is no longer valid).
+
 # 1. Sensor Suit
 <p align="center">
   <img alt="sensorsuit" src="./figures/sensorsuit.jpg">
@@ -34,9 +37,9 @@ The dataset is released in the form of rosbag and currently there are two rosbag
 
 | name | duration | size | link | 
 | :--: | :------: | :--: | :--: |
-| sports_field | 25min | 20.5GB | [OneDrive](https://hkustconnect-my.sharepoint.com/:u:/g/personal/scaoad_connect_ust_hk/Eb5EuCmYR4RBnXbpjV8EfNQBORvT0WPtGXMbwPa4Rmx6Lg?e=SYIHUv) |
-| complex_environment | 32min | 26.1GB | [OneDrive](https://hkustconnect-my.sharepoint.com/:u:/g/personal/scaoad_connect_ust_hk/EalZKULm8QFPqNZlf53C31QBmcQ1KUsWnOQ6N2rIefNBYA?e=QUbvHe) |
-| urban_driving | 41min | 33.4GB | [OneDrive](https://hkustconnect-my.sharepoint.com/:u:/g/personal/scaoad_connect_ust_hk/EX1pIitB4iFIqXjf2JZ_LYMBbENBrC1Rnl18KQKGeH3T0A?e=eFTp1f) |
+| sports_field | 25min | 22.0GB | [Hugging Face](https://huggingface.co/datasets/Shawn202606/GVINS-Dataset/tree/main) |
+| complex_environment | 32min | 17.3GB | [Hugging Face](https://huggingface.co/datasets/Shawn202606/GVINS-Dataset/tree/main) |
+| urban_driving | 41min | 35.9GB | [Hugging Face](https://huggingface.co/datasets/Shawn202606/GVINS-Dataset/tree/main) |
 
 The data items within the rosbag are listed below:
 | topic | type | frequency | description |
